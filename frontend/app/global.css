@@ -1,0 +1,46 @@
+  table {
+    border : 5px solid rgb(43 94 151 / 0%);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    width: 1000px;
+    height:1000px;
+  }
+
+  td {
+    transition: outline-color ease;
+    width: 5px; /* Largeur des cellules */
+    height: 5px; /* Hauteur des cellules */
+    padding: 0;
+  }
+  
+  td:hover {
+    outline: 1px solid rgb(190, 190, 190);
+    cursor: pointer;
+  }
+
+.colorPalette {
+  background-color: #615d4e99;
+  border: 10px solid rgb(75 42 0 / 67%);
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+
+.menu {
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  transition: all 0.3s ease;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-right: 5vh;
+  margin-left: 5vh;
+  line-height: 5vh;
+
+}
+
+.menu:hover {
+  background-color: #3d78c7; /* Changement de couleur de fond au survol */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Effet d'ombre douce */
+    transform: translateY(-2px);
+}
+
